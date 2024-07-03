@@ -1,0 +1,8 @@
+"i-0e7dbf889f62575d8"
+2024-06-02 14:00:48 elasticbeanstalk-ap-south-1-211125660973
+{
+    "Functions": []
+}
+{
+    "Users": []
+}

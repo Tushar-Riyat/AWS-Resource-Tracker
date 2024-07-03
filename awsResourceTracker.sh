@@ -12,17 +12,16 @@
 
 #AWS EC2 instancesId list
 echo "AWS EC2 instances lists"
-aws ec2 describe-instance | jq '.Reservations[].Instances[].InstanceId' > resourceTracker
+aws ec2 describe-instances | jq '.Reservations[].Instances[].InstanceId' > resourceTracker.txt
 
 #AWS s3 buckets list
 echo "AWS s3 Buckets lists"
-aws s3 ls >> resourceTracker
+aws s3 ls >> resourceTracker.txt
 
 #AWS list of lambda functions
 echo "AWS list of lambda functions"
-aws lambda list-functions >> resourceTracker
+aws lambda list-functions >> resourceTracker.txt
 
 # AWS list IAM users
 echo "AWS list of IAM users"
-aws iam list-users >> resourceTracker
-
+aws iam list-users >> resourceTracker.txt
