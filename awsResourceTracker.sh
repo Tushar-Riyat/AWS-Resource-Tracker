@@ -7,7 +7,7 @@
 # Version: v1
 # 
 # This script will report the AWS resource usage of AWS EC2 instanceId, AWS s3, AWS lambda functions, AWS IAM users
-# Inorder to make a automated report at 6 PM with there details we ececute the crontab with this script: 0 18 * * * ./awsResourceTracker.sh
+# Inorder to make a automated report at 6 PM with there details we execute the crontab with this script: 0 18 * * * ./awsResourceTracker.sh
 #######################
 
 #AWS EC2 instancesId list
